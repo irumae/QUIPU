@@ -1,0 +1,50 @@
+@font-face {
+  font-family: '동글폰트';
+  src: url(/Dongle/Dongle-Regular.ttf);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(253, 243, 255);
+  font-family: '동글폰트';
+  font-size: 20pt;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px black;
+  border-radius: 5px;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.images img {
+  margin-top: 20px;
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.top {
+  text-align: center;
+  color: black;
+  font-family: '동글폰트';
+  font-size: 50pt;
+}
+
+.images h4 {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.images p {
+  margin-top: 1px;
+}
