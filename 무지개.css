@@ -1,8 +1,9 @@
 @font-face {
-  font-family: '동글폰트';
-  src: url(/Dongle/Dongle-Regular.ttf);
+  font-family: 'TTHakgyoansimMonggeulmonggeulR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMonggeulmonggeulR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
-
 .main {
   display: flex;
   align-items: center;
@@ -16,8 +17,8 @@
   width: 200px;
   height: 200px;
   background-color: rgb(253, 243, 255);
-  font-family: '동글폰트';
-  font-size: 20pt;
+  font-family: 'TTHakgyoansimMonggeulmonggeulR';
+  font-size: 17pt;
   display: flex;
   align-items: center;
   box-shadow: 0 0 10px black;
@@ -36,15 +37,15 @@
 .top {
   text-align: center;
   color: black;
-  font-family: '동글폰트';
+  font-family: 'TTHakgyoansimMonggeulmonggeulR';
   font-size: 50pt;
 }
 
 .images h4 {
   margin-bottom: 0px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .images p {
-  margin-top: 1px;
+  margin-top: 5px;
 }
