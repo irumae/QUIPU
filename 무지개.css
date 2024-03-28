@@ -1,8 +1,7 @@
 @font-face {
-  font-family: 'TTHakgyoansimMonggeulmonggeulR';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMonggeulmonggeulR.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-style: normal;
 }
 .main {
   display: flex;
@@ -17,7 +16,7 @@
   width: 200px;
   height: 200px;
   background-color: rgb(253, 243, 255);
-  font-family: 'TTHakgyoansimMonggeulmonggeulR';
+  font-family: 'intelone-mono-font-family-regular';
   font-size: 17pt;
   display: flex;
   align-items: center;
@@ -37,7 +36,7 @@
 .top {
   text-align: center;
   color: black;
-  font-family: 'TTHakgyoansimMonggeulmonggeulR';
+  font-family: 'intelone-mono-font-family-regular';
   font-size: 50pt;
 }
 
