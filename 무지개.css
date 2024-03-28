@@ -1,8 +1,11 @@
 @font-face {
-    font-family: 'intelone-mono-font-family-regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
-    font-style: normal;
-}
+  font-family: 'LINESeedKR';
+  src: url('./fonts/LINESeedKR-Bd.woff2') format('woff2'), 
+    url('./fonts/LINESeedKR-Bd.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  }
+
 .main {
   display: flex;
   align-items: center;
@@ -16,8 +19,8 @@
   width: 200px;
   height: 200px;
   background-color: rgb(253, 243, 255);
-  font-family: 'intelone-mono-font-family-regular';
-  font-size: 17pt;
+  font-family: 'LINESeedKR';
+  font-size: 20pt;
   display: flex;
   align-items: center;
   box-shadow: 0 0 10px black;
@@ -36,15 +39,15 @@
 .top {
   text-align: center;
   color: black;
-  font-family: 'intelone-mono-font-family-regular';
+  font-family: 'LINESeedKR';
   font-size: 50pt;
 }
 
 .images h4 {
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .images p {
-  margin-top: 5px;
+  margin-top: 1px;
 }
