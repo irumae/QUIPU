@@ -1,10 +1,7 @@
 @font-face {
-  font-family: 'LINESeedKR';
-  src: url('./fonts/LINESeedKR-Bd.woff2') format('woff2'), 
-    url('./fonts/LINESeedKR-Bd.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  }
+  font-family: '동글폰트';
+  src: url(./Dongle/Dongle-Regular.ttf);
+}
 
 .main {
   display: flex;
@@ -19,7 +16,7 @@
   width: 200px;
   height: 200px;
   background-color: rgb(253, 243, 255);
-  font-family: 'LINESeedKR';
+  font-family: '동글폰트';
   font-size: 20pt;
   display: flex;
   align-items: center;
@@ -39,7 +36,7 @@
 .top {
   text-align: center;
   color: black;
-  font-family: 'LINESeedKR';
+  font-family: '동글폰트';
   font-size: 50pt;
 }
 
